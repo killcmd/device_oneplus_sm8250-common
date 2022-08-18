@@ -8,6 +8,13 @@
     "target_path" : "kernel/oneplus/sm8250"
   },
   {
+    "remote"      : "github",
+    "repository"  : "kdrag0n/proton-clang",
+    "branch"      : "master",
+    "clone-depth" : "1",
+    "target_path" : "prebuilts/clang/host/linux-x86/clang-proton"
+  },
+  {
     "repository"  : "vendor_ih8sn",
     "target_path" : "vendor/ih8sn"
   },
