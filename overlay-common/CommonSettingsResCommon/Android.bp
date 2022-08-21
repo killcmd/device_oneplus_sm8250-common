@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "EvolutionFrameworksResCommon",
-    vendor: true,
+    name: "CommonSettingsResCommon",
+    device_specific: true,
 }

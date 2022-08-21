@@ -5,10 +5,10 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.settings.overlay.evolution.common">
+    package="common.overlay.common">
 
     <overlay
         android:isStatic="true"
-        android:priority="300"
-        android:targetPackage="com.android.settings" />
+        android:priority="250"
+        android:targetPackage="android" />
 </manifest>

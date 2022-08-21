@@ -212,10 +212,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
 
-# Ih8sn
-PRODUCT_PACKAGES += \
-    ih8sn
-
 # IPACM
 PRODUCT_PACKAGES += \
     ipacm \
@@ -312,10 +308,10 @@ $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     CarrierConfigResCommon \
-    EvolutionFrameworksResCommon \
-    EvolutionSettingsProviderResCommon \
-    EvolutionSettingsResCommon \
-    EvolutionSystemUIResCommon \
+    CommonFrameworksResCommon \
+    CommonSettingsProviderResCommon \
+    CommonSettingsResCommon \
+    CommonSystemUIResCommon \
     FrameworksResTarget \
     OPlusExtrasResCommon \
     OPlusFrameworksResCommon \
