@@ -31,6 +31,14 @@
     <string name="node_hbm_mode_switch_true">1</string>
     <string name="node_hbm_mode_switch_false">0</string>
 
+    <!-- PCC Override sysfs node path, true, false -->
+    <string name="node_pcc_mode_switch">/sys/kernel/oplus_display/skip_pcc_override</string>
+    <string name="node_pcc_mode_switch_true">1</string>
+    <string name="node_pcc_mode_switch_false">0</string>
+
+    <!-- Max Brightness sysfs node path -->
+    <string name="node_max_brightness_preference">/sys/kernel/oplus_display/max_brightness</string>
+
     <!-- Power Efficient Workqueue sysfs node path, true, false -->
     <string name="node_power_efficient_workqueue_mode_switch">/sys/module/workqueue/parameters/power_efficient</string>
     <string name="node_power_efficient_workqueue_mode_switch_true">Y</string>
